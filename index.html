@@ -1,0 +1,241 @@
+<!DOCTYPE HTML>
+ <html>
+   <head>
+     <meta charset="UTF-8">
+      <title>Lilburn SuperSonics</title>
+		
+       <!-- Viewport meta tag to prevent iPhone from scaling our page -->
+       <meta name="viewport" content="width=device-width, initial-scale=1"/>
+		
+       <link rel="stylesheet" href="./css/style.css"/>
+       <link rel="stylesheet" href="./css/jquery.bxslider.css"/>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		
+		<!-- Normalize hide address bar for iOS and Android -->
+		<script src="./js/hideaddressbar.js"></script>
+		
+		<!-- Add media query support for IE8 and under. Must place media queries in external stylesheet -->
+		<script src="./js/respond.min.js"></script>
+		
+		<!-- Picture Fill -->
+		<script src="js/picturefill.js"></script>
+		<script src="js/matchmedia.js"></script>
+       <!--Custom Scripts-->
+       <script src="js/scripts.js"></script>
+    <!--Scripts for body carousel-->
+       <script src="/js/plugins/jquery.easing.1.3.js"></script>
+       <script src="/jquery/jquery.bxslider.js"></script>
+		
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+       
+       <style type="text/css" media="all">
+	
+	/********************************************
+	Fluid Media
+	********************************************/
+
+	figure {
+	    position: relative;
+	}
+
+	figure img,
+	figure object,
+	figure embed,
+	figure video {
+	    display: block;
+	    max-width: 100%; 
+	}
+
+	img {
+	    border: 0;
+	    -ms-interpolation-mode: bicubic;
+	}
+	
+	
+
+	/* 
+	interpolation-mode
+	http://css-tricks.com/ie-fix-bicubic-scaling-for-images/
+	 */
+	
+	
+/* Creates hover effect on Portfolio images */
+	#portfolio figure:hover,
+	.box:hover {
+	    -moz-box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
+	    -webkit-box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
+	    box-shadow: 0 0 .65em .325em rgba( 0, 0, 0, .1 );
+	}
+
+	/* Image Offset for Indication of Linked Content */
+
+	#portfolio figure:hover {
+	    bottom: .26em;
+	}
+					
+		@media screen and (min-width: 45em) {
+	#container-header {
+		background: #352a38 url("img/sonicsLogo2PSTst.png") no-repeat top center;
+        width: 100%;
+		/*height: 350px;
+		width:100%;*/
+		-webkit-background-size: cover;
+			    -moz-background-size: cover;
+			    background-size: cover;
+				padding: 10% 0;
+	}
+  }	
+
+ @media screen and (max-width: 45em) {
+		#container-header {
+		    background: #352a38 url("img/sonicsLogo2PSTstSm.png") no-repeat top center;
+			-webkit-background-size: cover;
+		    -moz-background-size: cover;
+		    background-size: cover;
+			padding: 10% 0;
+            width:100%;
+		}
+	}
+	</style>
+</head>
+<body class="">
+  <div class="navbar-wrapper bodyClr">
+    <div class="container navBg">
+      <div class="navbar-header">
+        <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse" type="button">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+          <a class="navbar-brand navbar-a" href="index.html">Lilbrun SuperSonics</a>
+       </div>
+       <div class="navbar-collapse collapse">
+         <ul class="nav navbar-nav">
+          <li class="active">
+            <a class="navbar-a" href="home.html">Home</a>
+          </li>
+          <li>
+            <a class="navbar-a" id="aboutNav" href="#about">About</a>
+          </li>
+          <li>
+             <a class="navbar-a" href="#contact">Contact</a>
+          </li>
+             <li>
+             <a class="navbar-a" href="#sponsors">Sponsors</a>
+          </li>
+         <!-- <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown
+                <span class="caret"></span>
+              </a>
+            <ul class="dropdown-menu" role="menu">
+             <li><a href="#">Action</a></li>
+             <li><a href="#">Another action</a></li>
+             <li><a href="#">Something else here</a></li>
+             <li class="divider"></li>
+             <li class="dropdown-header">Nav header</li>
+             <li><a href="#">Separated link</a></li>
+             <li><a href="#">One more separated link</a></li>
+            </ul>
+         </li>-->
+        </ul>
+       </div>
+     </div> 
+    </div> 
+    <!--Carousel Section -->
+   <div id="myCarousel" class="carousel slide bodyClr" data-ride="carousel">
+     <ol class="carousel-indicators">
+       <li class="" data-slide-to="0" data-target="#myCarousel"></li>
+       <li class="active" data-slide-to="1" data-target="#myCarousel"></li>
+       <li class="" data-slide-to="2" data-target="#myCarousel"></li>
+     </ol>
+     <div class="carousel-inner">
+      <div class="item">
+       <!--<img alt="First slide"   src="data:/img/sonicsLogo2PSTst.png;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">-->        <div class="pic1"></div>
+        <!--<img class="pic1" src="img/sonicsLogo2PSTst.png" />-->
+       <div class="container">
+        <div class="carousel-caption">
+         <h1 class="hmetxt">HOME OF THE </h1>
+         <p class="suprtxt">LILBURN SUPERSONICS</p>        
+      </div>
+     </div>
+    </div>
+   <div class="item active">
+    <!--<img alt="Second slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAGZmZgAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">-->
+    <div class="pic2"></div>
+    <div class="container">
+     <div class="carousel-caption">
+       <h1 class="phototxt">Play To WIN!!!!</h1> 
+     </div>
+    </div>
+  </div>
+  <div class="item">
+    <!--   <img alt="Third slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAFVVVQAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==">-->
+        <div class="pic3"></div>
+        <div class="container">
+           <div class="carousel-caption">
+            <h1 class="phototxt">Refuse To Lose.....</h1>
+           </div>
+        </div>
+ </div>
+</div>
+    <a class="left carousel-control" data-slide="prev" role="button" href="#myCarousel">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+    </a>
+    <a class="right carousel-control" data-slide="next" role="button" href="#myCarousel">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+    </a>
+</div>    
+<div id="content-wrapper" class="container">
+<div class="row padbtm padlft">
+   <section id="home col-xs-6 col-sm-3">   
+    <h3 class="sectitle">Welcome</h3>
+    <p class="hmtxt">Welcome to the <strong><i>Home of the Lilburn Supersonics</i></strong>… Follow us as we begin our Spring season.These young men are planting seeds of Hard work and Dedication. We are growing into a budding basketball organization for the youth of the Lilburn/Lawrenceville area. We call upon the community, family and friends for support as we embark on our journey for our first Team Championship.</p>   
+   </section>
+     <div class="col-xs-6 col-sm-8 marglft">
+    <div class="circular1"></div>   
+   </div>
+</div>
+    <!--  
+<section id="about">
+    <h3 class="sectitle">ABOUT</h3>
+      <p class="hmtxt">Welcome  to the Home of the Lilburn Supersonics… <br>Follow us and support us as       we begin our inaugural season.<br>These young men are planting seeds of Hard work and                 Dedication<br>  We are growing into a budding organization for the community.<br> We call upon       the community, family and friends to support us as we <br>Embark on our journey for our          first Team Championship.</p>
+</section>
+    <section id="sponsors">
+    <h3 class="sectitle">SPONSORS</h3>
+    <p class="hmtxt">Welcome  to the Home of the Lilburn Supersonics… <br>Follow us and support us as       we begin our inaugural season.<br>These young men are planting seeds of Hard work and                 Dedication<br>  We are growing into a budding organization for the community.<br> We call upon       the community, family and friends to support us as we <br>Embark on our journey for our          first Team Championship.</p>    
+</section>
+    <section id="contact">
+    <h3 class="sectitle">CONTACT</h3>
+     <p class="hmtxt">Welcome  to the Home of the Lilburn Supersonics… <br>Follow us and support us as       we begin our inaugural season.<br>These young men are planting seeds of Hard work and                 Dedication<br>  We are growing into a budding organization for the community.<br> We call upon       the community, family and friends to support us as we <br>Embark on our journey for our          first Team Championship.</p>
+    </section>
+<div class="row">
+ <div class="col-lg-3">
+   
+    
+     </div> -->
+   <!--<article id="sponsec" class="container-fluid">
+      <div class="sidebar-right">        
+    </div>
+   </article>-->
+  </div>
+ 
+<div class="navbar navbar-default navbar-fixed-bottom">
+ <div class="container footer">
+   <p class="navbar-text pull-left">Site Built By: Imanje Solutions</p>
+   <a href="#" class="navbar-button btn-success btn-sm pull-right">Contact Us</a>
+ </div>
+</div>
+</body>
+</html>
