@@ -1,0 +1,3 @@
+# lilburnsupersonics
+AAU Basketball Website
+This site is under construction with some extensive refactoring. My ADHD has been really apparent with this site...
